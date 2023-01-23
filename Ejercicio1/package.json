@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de JavaScript Básico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitorcachero/JavaScriptBasico.git"
+  },
+  "keywords": [
+    "ejercicio1",
+    "openbootcamp"
+  ],
+  "author": "Aitor Cachero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aitorcachero/JavaScriptBasico/Ejercicio1/issues"
+  },
+  "homepage": "https://github.com/aitorcachero/JavaScriptBasico/Ejercicio1#readme"
+}
