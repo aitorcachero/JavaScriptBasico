@@ -1,20 +1,20 @@
-const winston = require("winston");
+const winston = require('winston');
 
 const logger = winston.createLogger({
-  level: "error",
+  level: 'error',
   format: winston.format.json(),
-  defaultMeta: { service: "user-service" },
+  defaultMeta: { service: 'user-service' },
   transports: [
-    new winston.transports.File({ filename: "error.log", level: "error" }),
+    new winston.transports.File({ filename: 'error.log', level: 'error' }),
   ],
 });
 
 function mostrarError() {
-  throw new Error("Se muestra la función error");
+  throw new Error('Se muestra la función error');
 }
 
 try {
   mostrarError();
 } catch (e) {
-  logger.log("error", e.toString());
+  logger.log('error', e.toString());
 }
