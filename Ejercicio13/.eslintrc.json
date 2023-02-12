@@ -10,6 +10,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],s
+    "no-unused-vars": "off"
   }
 }
